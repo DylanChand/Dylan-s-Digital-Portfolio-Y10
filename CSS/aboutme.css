@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    font-family: "poppins" , sans-serif , "cursive";
+}
+#wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:"header header header" 
+                        "h1 h1 h1"
+                         "h2 h2 h2"
+                        "content1 content1 content1"
+                         "content2 content2 content2"
+                         "content3 content3 content3"
+                          "pepeha pepeha pepeha"
+                         "footer footer footer"
+                            ;
+}
+* {
+    box-sizing: border-box;
+    outline: none;
+    margin: ;
+    padding: ;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "poppins" , sans-serif , cursive;
+}
+}
+div{
+    border: 0px solid black;
+    
+}
+
+body{
+    background-color:skyblue;
+   
+}
+.header{
+    position: sticky;
+    height: 100px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 2rem 10%;
+    background-color:;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index:;
+    background-color: royalblue;
+}
+
+.logo{
+    grid-area: logo;
+    font-size: 2.5rem;
+    color: rebeccapurple;
+    text-decoration: none;
+    font-weight: 800;
+}
+.logo:hover{
+    color: red;
+    text-shadow: 0 0 25px indianred,
+                 0 0 50px indianred;
+    transform: scale(1,1);
+    transition: .6s;
+}
+.navbar{
+    grid-area: navbar;
+}
+.navbar a{
+    grid-area: navbar;
+    font-size: 18px;
+    color: ghostwhite;
+    text-decoration: none;
+    font-weight: 600;
+    margin-left: 35px;
+    transition: .3s;
+}
+
+.navbar :hover,
+.navbar motion
+{
+    grid-area: navbar;
+    color: darkblue;
+    border-bottom: 5px solid  darkblue;
+}
+.content1{
+    display: grid;
+    grid-template-areas: "img1 mc mc";
+}
+.content2{
+    display: grid;
+    grid-template-areas: "mc2 mc2 img2";
+}
+.content3{
+    display: grid;
+    grid-template-areas: "img3 mc3 mc3 img4";
+}
+.h1{
+    color: white;
+    grid-area: h1;
+    margin-top: 40px;
+    font-size: 30px;
+    font-weight: 700;
+    color:;
+}
+.h1:hover{
+    color: cyan;
+    text-shadow: 0 0 25px navy,
+                 0 0 50px navy;
+    transform: scale(1,1);
+    transition: 3s;
+    animation: ;
+}
+.h2{
+    color: white;
+    grid-area: h2;
+    margin-bottom: 40px;
+    text-align: center;
+    font-weight: 750;
+    font-size: 3rem;
+}
+.h2:hover{
+    color: darkcyan;
+    text-shadow: 0 0 25px cyan,
+                 0 0 50px cyan;
+    transform: scale(1,1);
+    transition: 3s;
+    animation: ;
+}
+.img1{
+grid-area: img1;
+}
+.img1 img{
+    width: 280px;
+    height: 280px;
+    align-items: left;
+    display: flex;
+    border-radius: 50%;
+    overflow:hidden;
+    border 1px;
+    margin-left: 20px;
+}
+.img1 img:hover{
+    color: darkblue;
+    box-shadow:  0 0 100px darkblue,
+                 0 0 100px darkblue;
+    transform: scale(1,1);
+    transition: 1s;
+}
+.mc{
+    margin-left: 50px;
+    margin-right: 20px;
+    grid-area: mc;
+    text-align:30 30 ;
+    font-weight: 500;
+    padding: ;
+    border-radius: 20px 20px;
+    background-color: ;
+    text-align: left;
+}
+.img2{
+    grid-area: img2;
+}
+.img2 img{
+    width: 280px;
+    height: 280px;
+    align-items: left;
+    display: flex;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 1px;
+    margin-left: 20px;
+}
+.img2 img:hover{
+    color: darkblue;
+    box-shadow:  0 0 80px darkblue,
+                 0 0 80px darkblue;
+    transform: scale(1,1);
+    transition: 1s;
+}
+.mc2{
+    grid-area: mc2;
+    font-weight: 500;
+    margin-right: 10px;
+    margin-left: 15px;
+}
+.img3{
+    grid-area: img3;
+    width: 180px;
+    height: 180px;
+    align-items: center;
+    display: flex;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 1px;
+    margin-left: 20px;
+    margin-top: 35px;
+}
+.img3:hover{
+    color: darkblue;
+    box-shadow:  0 0 25px darkblue,
+                 0 0 25px darkblue;
+    transform: scale(1,1);
+    transition: .5s;
+}
+.img3:hover {
+  transform: scale(1.2);
+
+}
+.img4{
+    grid-area: img4;
+    width: 165px;
+    height: 165px;
+    align-items: center;
+    display: flex;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 1px;
+    margin-right: 25px;
+    margin-top: 40px;
+    
+}
+.img4:hover{
+    color: darkblue;
+    box-shadow:  0 0 80px darkblue,
+                 0 0 80px darkblue;
+    transform: scale(1,1);
+    transition: .5s;
+}
+.img4:hover {
+transform: scale(1.2); 
+}
+.mc3{
+    grid-area: mc3;
+    font-weight: 500;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.pepeha{
+    text-align: center;
+    grid-area: pepeha;
+    font-weight: 700;
+}
+.pepeha:hover{
+    color: gold;
+    box-shadow: 0 0 25px gold.
+                0 0 50px darkgoldenrod;
+    transition: .5s;
+    transform: scale(1,1;)
+}
+.footer{
+    grid-area: footer;
+    text-align: center;
+    color: red;
+    font-weight: 800;  
+}
